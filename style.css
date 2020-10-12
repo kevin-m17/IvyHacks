@@ -1,0 +1,339 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    height:100%;
+}
+
+body {
+	margin:0px;
+    padding:0px;
+    height:100%;
+}
+
+/* home page */
+
+#logo {
+    padding: 20px;
+    font-weight: bolder;
+    font-size: 42px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title {
+	background: #ffcccb;
+	padding: 60px;
+	text-align:center;
+	border-radius: 10px;
+}
+
+
+.title:hover {
+	cursor: pointer;
+	background: light-gray;
+	visibility: visible;
+}
+
+#frontButton {
+	border-color: white;
+	padding: 20px;
+}
+
+.topSection {
+	position: relative; 
+	width: 100%;
+    font-family: 'Lora', serif;
+}
+
+.centerText {
+	position: absolute; 
+	top: 50%; 
+	text-align: center; 
+	width: 100%; 
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#pfp {
+    height: 25%;
+    width: 25%;
+}
+
+.nav-link {
+	font-weight: bold;
+}
+
+.card {
+	padding: 20px !important;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.card-text {
+	margin-left: 30%;
+	margin-right: 30%;
+}
+
+h5 {
+	text-align: center;
+	font-family: "Poppins", sans-serif;
+	/* padding: 30px; */
+}
+
+h2 {
+	text-align:center;
+	padding: 40px;
+}
+
+.mid-section {
+	position:relative;
+	background: #FED8B1;
+	top: -35px;
+	padding-bottom: 50px;
+}
+
+/* location */
+#location {
+    height: 100%;
+    background-color: grey;
+    /* padding: 20px;
+    margin: 200px;
+    top: -200px; */
+}
+
+#final {
+    text-align:center;
+    padding: 20px;
+
+    font-size: 30px;
+}
+
+#picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+h4 {
+	padding: 30px;
+	text-align: center;
+}
+
+/* further resources */
+
+.outerPic {
+	opacity: 0;
+	background-color: rgba(255, 119, 29, 0.9);
+}
+#button1 {
+	background-image: url('stats.png');
+	width: 300px;
+	height:300px;
+}
+
+#button2 {
+	background-image: url('updates.png');
+	width: 300px;
+	height: 300px;
+}
+
+#button3 {
+	background-image: url('questions.png');
+	width: 300px;
+	height: 300px;
+}
+
+#button1:hover {
+	transform: scale(1.13);
+	background-image: none;
+	background-color: rgba(255, 119, 29, 0.9);
+
+}
+
+#button1:hover .outerPic {
+	opacity: 1;
+	background-color: rgba(255, 119, 29, 0.9);
+
+}
+
+#button2:hover {
+	transform: scale(1.13);
+	background-image: none;
+	background-color: rgba(255, 119, 29, 0.9);
+
+}
+
+#button2:hover .outerPic {
+	opacity: 1;
+	background-color: rgba(255, 119, 29, 0.9);
+
+}
+
+#button3:hover {
+	transform: scale(1.13);
+	background-image: none;
+	background-color: rgba(255, 119, 29, 0.9);
+
+}
+
+#button3:hover .outerPic {
+	opacity: 1;
+	background-color: rgba(255, 119, 29, 0.9);
+
+}
+
+/* represents whole image */
+#pic {
+	position: relative;
+	padding:5px;
+	background-color: light-gray;
+	opacity: 1;
+}
+
+/* hover over JUST the picture, not involving text */
+#pic:hover {
+	opacity: 0.7;
+}
+
+/* set position of text */
+#pic > .caption {
+	position: absolute;
+	left: 50%;
+	top: 20%;
+	transform: translate(-50%, -50%);
+	visibility: hidden;
+	font-weight: bold;
+	color: black;
+}
+
+/* when the whole picture hovers, this only focuses on the text */
+#pic:hover > .caption {
+	visibility: visible;
+
+}
+
+
+.w-50 {
+	display:block;
+	margin: auto;
+}
+
+.carousel-inner {
+	background:#D3D3D3;
+}
+
+body > a > span {
+	position:relative;
+	top: -85px;
+}
+
+/* About me */
+h3 {
+	text-align: center;
+	padding: 30px;
+}
+
+.profile {
+	background: white;
+	padding-bottom: 500px;
+}
+
+.container-sm {
+	padding-left: 100px;
+	padding-right: 100px;
+	margin-left: 100px;
+	margin-right: 100px;
+
+}
+
+.captionUnder {
+	text-align: center;
+	padding: 5px;
+}
+
+#appName {
+	font-size: 30px;
+	font-weight:bold;
+	padding:10px;
+}
+
+
+/* h50 {
+	text-align:center;
+} */
+
+#contactButton {
+	border-color: white;
+	padding: 20px;
+}
+
+
+.lined {
+	border: 1px solid orange;
+	width: 7%;
+	margin: auto;
+}
+
+/* thank you */
+.message {
+	text-align: center;
+	font-size: 50px;
+	padding: 50px;
+	padding-bottom: 500px;
+}
+
+/* footer */
+
+.end {
+	padding:30px;
+	background-color: white;
+
+}
+
+.footer {
+	padding: 10px;
+	background-color: white;
+	text-decoration: none
+}
+
+.fab {
+	color: #A9A9A9;
+	font-size: 30px;
+text-decoration: none
+}
+
+.fas {
+	color: #A9A9A9;
+	font-size:30px;
+}
+
+i:hover {
+	color:blue;
+	font-size:40px;
+	text-decoration: none
+
+}
+
+.logos {
+	text-align: center;
+	display: block;
+	justify-content: space-between;
+
+}
+
+.github {
+	padding: 5px;
+}
+
+.facebook {
+	padding: 5px;
+}
+
+.envelope {
+	padding: 5px;
+}
